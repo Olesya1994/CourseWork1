@@ -1,7 +1,7 @@
 package CourseWork1;
 
 public class Employee {
-    private static int firstId = 0;
+    private static int firstId = 1;
 
     private String firstName;
     private String middleName;
@@ -57,12 +57,13 @@ public class Employee {
     @Override
     public String toString() {
         return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", middleName='" + middleName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", department=" + department +
-                ", salary=" + salary +
+                "ФИО'" + firstName + ' '
+                + middleName + ' '
+                + lastName + '\'' +
+                ", отдел=" + department +
+                ", ЗП=" + salary +
                 ", id=" + id +
                 '}';
     }
+
 }
